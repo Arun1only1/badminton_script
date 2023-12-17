@@ -146,7 +146,44 @@
 
 // WAF to take first name and last name as parameter and return full name
 
-const getFullName = (firstName, lastName) => `${firstName} ${lastName}`;
+// const getFullName = (firstName, lastName) => `${firstName} ${lastName}`;
 
-const result = getFullName("Deepesh", "Lama");
-console.log(result);
+// const result = getFullName("Deepesh", "Lama");
+// console.log(result);
+
+//? 1.WAF which takes mass and acceleration as input and return force
+//? F =m * a
+
+// function calculateForce(mass, acceleration) {
+//   let force = mass * acceleration;
+
+//   return force;
+// }
+
+// const result = calculateForce(10, 2);
+// console.log(result);
+
+// ?2.WAF that receives force and area as input and returns pressure
+// ? P =F/A
+
+// const calculatePressure = (force, area) => force / area;
+
+// const result = calculatePressure(1000, 20);
+// console.log(result);
+
+// ?3.WAF that calculate price of a well furnished house
+//?total price =  price per square * area
+
+// ?4. WAF that finds all even numbers between 100 to 250
+
+// const evenNumberFilter = (initialValue, endValue) => {
+//   for (let i = initialValue; i <= endValue; i = i + 1) {
+//     let remainder = i % 2;
+
+//     if (remainder === 0) {
+//       console.log(i);
+//     }
+//   }
+// };
+
+// evenNumberFilter(100, 250);
