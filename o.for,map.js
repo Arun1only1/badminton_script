@@ -71,3 +71,50 @@ let scores = [400, 450, 777, 521, 666, 232];
 
 // const result = getSum(2, 3);
 // console.log(result);
+
+let laptopList = [
+  {
+    name: "TUF F15",
+    brand: "asus",
+    price: 1044,
+  },
+  {
+    name: "GF63",
+    brand: "msi",
+    price: 900,
+  },
+  {
+    name: "macbook air m2",
+    brand: "apple",
+    price: 1400,
+  },
+  {
+    name: "nitro",
+    brand: "acer",
+    price: 800,
+  },
+
+  {
+    name: "inspiron 55",
+    brand: "dell",
+    price: 700,
+  },
+];
+
+// ? due to sudden rise in tax, add 7% to the price of each laptop
+
+// const newLaptopList = laptopList.map((item, index, self) => {
+//   let newPrice = item.price + (7 / 100) * item.price;
+
+//   item.price = newPrice;
+
+//   return item;
+
+//   //   return {  ...item,price: newPrice}
+// });
+
+// const newLaptopList = laptopList.map((item, index, self) => ({
+//   ...item,
+//   price: item.price + (7 / 100) * item.price,
+// }));
+// console.log(newLaptopList);
