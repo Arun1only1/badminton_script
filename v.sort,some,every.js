@@ -115,6 +115,22 @@
 
 // console.log(sum);
 
+// reduce => accumulates value
+// let scores = [32, 56, 77, 68, 43, 38];
+
+// const result = scores.reduce((sum, item, index, self) => {
+//   sum = sum + item;
+
+//   return sum;
+// }, 0);
+
+// console.log(result);
+
+// let prices = [25, 100, 150, 87, 225, 550];
+
+// const result = prices.reduce((totalProduct, item) => totalProduct * item, 1);
+
+// console.log(result);
 // ?map
 // ?filter
 // ?find
