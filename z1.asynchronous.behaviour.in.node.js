@@ -25,3 +25,5 @@ console.log("Hello");
 
 // Stack => LIFO => Last In First Out
 // Queue => FIFO => First In First Out
+
+// Callstack full => maximum call stack size exceeded
