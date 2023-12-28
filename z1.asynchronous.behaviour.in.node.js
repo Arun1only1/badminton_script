@@ -7,21 +7,21 @@
 // but node handles it using event loop
 // node implements  non-blocking using event loop
 
-console.log("Hi");
+// console.log("Hi");
 
-setTimeout(() => {
-  console.log("Timeout 1");
-}, 5000);
+// setTimeout(() => {
+//   console.log("Timeout 1");
+// }, 5000);
 
-setTimeout(() => {
-  console.log("Timeout 2");
-}, 1000);
+// setTimeout(() => {
+//   console.log("Timeout 2");
+// }, 1000);
 
-setTimeout(() => {
-  console.log("Timeout 3");
-}, 0);
+// setTimeout(() => {
+//   console.log("Timeout 3");
+// }, 0);
 
-console.log("Hello");
+// console.log("Hello");
 
 // Stack => LIFO => Last In First Out
 // Queue => FIFO => First In First Out
